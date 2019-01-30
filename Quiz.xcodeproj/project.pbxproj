@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51248FDD22021BD700712BF3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51248FDC22021BD700712BF3 /* File.swift */; };
 		5131D0EE21FE9AD2003CC9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131D0ED21FE9AD2003CC9E5 /* AppDelegate.swift */; };
 		5131D0F021FE9AD2003CC9E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131D0EF21FE9AD2003CC9E5 /* ViewController.swift */; };
 		5131D0F321FE9AD2003CC9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5131D0F121FE9AD2003CC9E5 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51248FDC22021BD700712BF3 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		5131D0EA21FE9AD2003CC9E5 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5131D0ED21FE9AD2003CC9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5131D0EF21FE9AD2003CC9E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				5131D0ED21FE9AD2003CC9E5 /* AppDelegate.swift */,
 				5131D0EF21FE9AD2003CC9E5 /* ViewController.swift */,
+				51248FDC22021BD700712BF3 /* File.swift */,
 				5131D0F121FE9AD2003CC9E5 /* Main.storyboard */,
 				5131D0F421FE9AD3003CC9E5 /* Assets.xcassets */,
 				5131D0F621FE9AD3003CC9E5 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5131D0F021FE9AD2003CC9E5 /* ViewController.swift in Sources */,
+				51248FDD22021BD700712BF3 /* File.swift in Sources */,
 				5131D0EE21FE9AD2003CC9E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = highpoint.edu.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,7 +305,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = highpoint.edu.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
